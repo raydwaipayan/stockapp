@@ -23,7 +23,7 @@ mongoose.connect(
 })
 .catch(err=>console.log(err));
 
-app.use("/api",api);
+app.use("/",api);
 
 const port=process.env.PORT || 5000;
 
