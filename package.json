@@ -15,8 +15,9 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "concurrently": "^4.0.1",
+    "concurrently": "^4.1.0",
     "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
     "isomorphic-fetch": "^2.2.1",
     "mongoose": "^5.3.11"
   },
