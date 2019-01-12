@@ -1,0 +1,26 @@
+{
+  "name": "stockapp",
+  "version": "1.0.0",
+  "description": "Stock app for problem statement",
+  "main": "server.js",
+  "proxy": "http://localhost:5000",
+  "scripts": {
+    "start": "node server.js",
+	"server": "nodemon server.js",
+	"client-install": "npm install --prefix client",
+	"client": "npm start --prefix client",
+	"dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Dwaipayan, Sarbik",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.11",
+  },
+  "engines": {
+    "node": "8.10.0"
+  }
+
+}
