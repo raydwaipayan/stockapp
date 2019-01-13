@@ -13,7 +13,7 @@ function filterByDate(priceHistory, start, end)
   else
     for(let i=0;i<priceHistory.length;i++)
     {
-      if(priceHistory[i][0]>=start && priceHistory[i][0]<=end)
+      if(Date.parse(priceHistory[i][0])>=Date.parse(start) && Date.parse(priceHistory[i][0])<=Date.parse(end))
         history.push(priceHistory[i]);
     }
   return history;
