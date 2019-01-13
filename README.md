@@ -3,16 +3,16 @@
 ## Objective
 This app demonstrates the use of REST api.
 
-##Deploys
+## Deploys
 The frontend is deployed at https://stock-app-srbk.herokuapp.com
 The backend is present at https://stockapp-dwai.herokuapp.com
 
 Backend routes: /stock is used for GET query
 
-#Concurrently
+# Concurrently
 The app uses concurrently to run both backend and frontend simultaneously in dev mode. For depoyment it is advised to deploy frontend and backend seperately.
 
-#Authors
+# Authors
 1. Dwaipayan Ray- https://www.github.com/raydwaipayan
 2. Sarbik Betal- https://www.github.com/sarbikbetal
 
