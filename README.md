@@ -25,5 +25,5 @@ Stickapp can be installed using source.
     3. [Install npm](https://www.npmjs.com/get-npm)
     4. `npm install` (this step installs all the dependencies)
 
-#Testing
+# Testing
 To start development server , use `npm run dev`.
